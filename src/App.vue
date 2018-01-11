@@ -2,12 +2,24 @@
   <div id="app">
     <img src="./assets/logo.png">
     <router-view/>
+    <input type="text">
+    <p>{{header}}</p>
   </div>
 </template>
 
 <script>
   export default {
-    name: 'app'
+    name: 'app',
+    data: function () {
+      return {
+        title: ''
+      }
+    },
+    computed: {
+      header: function () {
+        return this.title
+      }
+    }
   }
 </script>
 
