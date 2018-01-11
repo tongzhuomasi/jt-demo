@@ -12,12 +12,12 @@
     name: 'app',
     data: function () {
       return {
-        title: ''
+        title: '你好'
       }
     },
     computed: {
       header: function () {
-        return this.title
+        return this.title + '呀'
       }
     }
   }
