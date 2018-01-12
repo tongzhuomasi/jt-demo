@@ -9,17 +9,7 @@
 
 <script>
   export default {
-    name: 'app',
-    data: function () {
-      return {
-        title: '你好'
-      }
-    },
-    computed: {
-      header: function () {
-        return this.title + '呀'
-      }
-    }
+    name: 'app'
   }
 </script>
 
