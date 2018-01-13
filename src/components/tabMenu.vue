@@ -18,7 +18,7 @@
     methods: {
       // 切换tab
       tabChange: function (val) {
-        this.$root.$router.push({name: val})
+        this.$router.push({name: val})
         this.activeTab = val
       }
     }

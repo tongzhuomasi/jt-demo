@@ -9,7 +9,7 @@
   import tabMenu from './components/tabMenu'
   export default {
     name: 'app',
-    components: { tabMenu },
+    components: {tabMenu},
     // 生命周期
     mounted: function () {
       this.$nextTick(function () {
